@@ -18,33 +18,33 @@ The system handles employee details such as Name, Email, Department, Manager, an
 Additionally, the Incident form is enhanced using Dot Walking, enabling automatic population of related fields like department, manager, and email when an employee is selected.
 
 Key Features
-  Import employee data from CSV/XLSX
-  Use Import Sets to stage data
-  Create Transform Maps for mapping
-  Handle reference fields (Department, Manager)
-  Enable Dot Walking for auto-fill fields
-  Ensure accurate data insertion into sys_user
+  1.Import employee data from CSV/XLSX
+  2.Use Import Sets to stage data
+  3.Create Transform Maps for mapping
+  4.Handle reference fields (Department, Manager)
+  5.Enable Dot Walking for auto-fill fields
+  6.Ensure accurate data insertion into sys_user
 
 Technologies Used:
-  ServiceNow
-  Import Sets
-  Transform Maps
-  Dot Walking
+  1.ServiceNow
+  2.Import Sets
+  3.Transform Maps
+  4.Dot Walking
 
 Workflow:
-  Create employee data in Google Sheets
-  Download as CSV/XLSX
-  Upload using Import Sets
-  Create Transform Map (import_employee → sys_user)
-  Map all fields including reference fields
-  Run transform
-  Configure Incident form using Dot Walking
+  1.Create employee data in Google Sheets
+  2.Download as CSV/XLSX
+  3.Upload using Import Sets
+  4.Create Transform Map (import_employee → sys_user)
+  5.Map all fields including reference fields
+  6.Run transform
+  7.Configure Incident form using Dot Walking
 
 Outcome
-  Improved data accuracy
-  Reduced manual effort
-  Automated relationship mapping
-  Better user experience
+  1.Improved data accuracy
+  2.Reduced manual effort
+  3.Automated relationship mapping
+  4.Better user experience
 
 Conclusion
 
